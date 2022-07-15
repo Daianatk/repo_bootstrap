@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*Convenios*/
+.convenios {
+    background-color: #f9f9fa;
+    color: rgb(26, 25, 25);
+    padding: 20px;
+    border: none;
+}
+
+/*Card Especialidades*/
+.card-especialidades {
+    background-color: #0032a0;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+/*Card Noticias*/
+.card-noticias {
+    color: #0032a0;
+}
+
+/*Card Noticias*/
+.card-noticias {
+    background-color: #9b54dd;
+    color: white;
+    margin-top: 20px;
+}
+
+/*Card Formulario*/
+.card-formulario {
+    background: -webkit-linear-gradient(left, #00b4f6 0%, #00d9e2 66%, #00ecd8 100%);
+    color: white;
+    padding: 30px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Formulario Contacto*/
+.formulario-contacto {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
