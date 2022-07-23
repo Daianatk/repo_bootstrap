@@ -16,9 +16,9 @@
 <body>
   <header>
     <!-- Menú -->
-    <nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo-centro-medico-mayo"
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="logo-centro-medico-mayo"
             class="image-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,36 +108,36 @@
 
   <!-- Carrusel convenios -->
   <main class="convenios">
-    <div class="container-fluid py-5">
-      <h2 class="text-center py-5">Nuestros convenios</h2>
-      <div class="row py-5 mx-5">
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/rimac.png" class="img-fluid img-thumbnail" alt="rimac">
+    <div class="container-fluid py-3">
+      <h2 class="text-center py-3">Nuestros convenios</h2>
+      <div class="row py-3 mx-3">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/rimac.png" class="img-fluid" alt="rimac">
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/pacifico.png" class="img-fluid img-thumbnail" alt="pacifico">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/pacifico.png" class="img-fluid" alt="pacifico">
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/positiva.png" class="img-fluid img-thumbnail" alt="lapositiva">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/positiva.png" class="img-fluid" alt="lapositiva">
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/mapfre.png" class="img-fluid img-thumbnail" alt="mapfre">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/mapfre.png" class="img-fluid" alt="mapfre">
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/interseguro.png" class="img-fluid img-thumbnail" alt="interseguro">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/interseguro.png" class="img-fluid" alt="interseguro">
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-2">
-          <img src="./images/bnp.png" class="img-fluid img-thumbnail" alt="bnp">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <img src="./images/bnp.png" class="img-fluid" alt="bnp">
         </div>
       </div>
-      <div class="text-end me-5">
+      <div class=" text-center p-5">
         <button type="button" class="btn btn-outline-info">Ver más Convenios + </button>
       </div>
     </div>
   </main>
 
   <!-- Cards Especialidades -->
-  <div>
+  <div id="especialidades__home">
     <div class="container-fluid card-especialidades py-5">
       <h2 class="text-center py-5">Nuestras Especialidades</h2>
       <div class="row">
@@ -153,18 +153,18 @@
         <article class="col-sm-6 col-md-6 col-lg-3">
           <img src="./images/psicologia.png" alt="Cardiologia" class="img-fluid img-thumbnail">
         </article>
-        <div class="text-center p-3 mb-2">
-          <button type="button" class="btn btn-outline-info">Ver más Especialidades + </button>
-        </div>
-      </div>
 
+      </div>
+    </div>
+    <div class="text-center p-3 mb-2" id="boton__especialidades">
+      <button type="button" href="especialidades.html" class="btn btn-outline-info" >Ver más Especialidades + </button>
     </div>
   </div>
 
   <!-- Cards Noticias -->
   <div class="card-noticia">
-    <h2 class="text-center py-2 mb-2">¿Por qué Centro Médico Mayo?</h2>
-    <div class="card container-fluid card-noticias mb-3" style="max-width: 1200px;">
+    <h2 class="text-center py-5 mb-2">¿Por qué Centro Médico Mayo?</h2>
+    <div class="card container-fluid card-noticias mb-3" style="max-width: 900px;">
       <div class="row">
         <div class="col-md-6">
           <img src="./images/staff-medico.jpg" class="img-fluid" alt="staff-medico">
@@ -184,6 +184,17 @@
     </div>
   </div>
 
+  <!-- Contenido -->
+  <figure class="text-center">
+    <img class="img-fluid p-3" src="./images/joint-commission-international.png" alt="Joint Commission International">
+    <blockquote class="blockquote">
+      <p>Joint Commission International</p>
+    </blockquote>
+    <figcaption class="blockquote-footer p-3">
+      Nuestras clinica está acreditadas por Joint Commission International, <cite title="Source Title">máxima distinción internacional otorgada a una entidad de salud. </cite>
+    </figcaption>
+  </figure>
+
   <!-- Formulario suscribete -->
   <div class="card container-fluid card-formulario mb-3">
     <form class="row g-3">
@@ -197,7 +208,7 @@
         </div>
         <div class="col-auto">
           <label for="email" class="visually-hidden">Correo Electrónico</label>
-          <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+          <input type="email" class="input__horario" id="email" placeholder="Correo Electrónico">
         </div>
         <div class="col-auto">
           <button type="submit" class="btn btn-primary col-12">Enviar</button>
